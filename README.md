@@ -10,6 +10,8 @@ work/<work-slug>/
 
 Each work keeps its public article, documentation, code and supporting assets together.
 
-Nothing is published here yet.
+## Published work
+
+- [Make it pullable!](work/make-it-pullable/)
 
 > **Publish the approved work, not the process that produced it.**
