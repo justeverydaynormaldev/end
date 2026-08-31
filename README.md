@@ -13,5 +13,6 @@ Each work keeps its public article, documentation, code and supporting assets to
 ## Published work
 
 - [Make it pullable!](work/make-it-pullable/)
+  - [Companion poster](work/make-it-pullable/assets/make-it-pullable-companion-poster.svg)
 
 > **Publish the approved work, not the process that produced it.**
