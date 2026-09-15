@@ -60,6 +60,10 @@ h1 {
   font-weight: 800;
 }
 
+.end-entry .end-page > h1:first-child {
+  text-transform: uppercase;
+}
+
 .end-entry .end-page > h1:first-child::after {
   content: "";
   display: block;
@@ -185,5 +189,9 @@ hr {
 
   .end-page {
     padding-block: 3rem 5rem;
+  }
+
+  h2 {
+    margin-top: 4rem;
   }
 }
