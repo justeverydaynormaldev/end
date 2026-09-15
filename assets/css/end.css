@@ -6,6 +6,7 @@
   --end-parchment: #f2efe6;
   --end-red: #e64d3d;
   --end-measure: 46rem;
+  --end-reading-measure: 41rem;
 }
 
 * {
@@ -50,6 +51,7 @@ h2,
 h3 {
   line-height: 1.12;
   letter-spacing: -0.025em;
+  text-wrap: balance;
 }
 
 h1 {
@@ -70,13 +72,21 @@ h1 {
   transform-origin: left center;
 }
 
+.end-entry .end-page > h1:first-child + p {
+  margin-bottom: 2.15rem;
+  color: var(--end-concrete);
+  font-size: 1.12rem;
+  line-height: 1.55;
+}
+
 h2 {
-  margin: 4.25rem 0 1.25rem;
-  font-size: clamp(1.55rem, 4vw, 2.1rem);
+  margin: 5rem 0 1.35rem;
+  font-size: clamp(1.6rem, 4vw, 2.15rem);
+  font-weight: 750;
 }
 
 h3 {
-  margin: 2.5rem 0 1rem;
+  margin: 2.75rem 0 1rem;
   font-size: 1.2rem;
 }
 
@@ -89,11 +99,32 @@ table {
   margin-block: 0 1.35rem;
 }
 
+p {
+  text-wrap: pretty;
+}
+
+.end-entry .end-page > p,
+.end-entry .end-page > ul,
+.end-entry .end-page > ol,
+.end-entry .end-page > blockquote {
+  max-width: var(--end-reading-measure);
+}
+
 a {
   color: inherit;
   text-decoration-color: var(--end-red);
   text-decoration-thickness: 0.12em;
   text-underline-offset: 0.16em;
+}
+
+a:hover {
+  text-decoration-thickness: 0.18em;
+}
+
+a:focus-visible {
+  outline: 0.16rem solid var(--end-red);
+  outline-offset: 0.18rem;
+  text-decoration: none;
 }
 
 strong {
