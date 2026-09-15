@@ -8,6 +8,7 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-readme-index
   - jekyll-relative-links
+  - jekyll-titles-from-headings
 
 defaults:
   - scope:
