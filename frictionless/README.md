@@ -16,23 +16,23 @@ Mais dans les deux cas, on sent que quelque chose résiste.
 
 Et une partie de cette résistance ne vient pas du travail lui-même. Elle vient des conditions dans lesquelles il doit avancer.
 
-C’est cette partie-là qui mérite qu’on s’y attarde : **la friction**.
+C’est cette partie-là qui mérite qu’on s’y attarde : **la friction**.
 
-D’où une cible consciemment utopique : **frictionless\***.
+D’où une cible consciemment utopique : **frictionless\***.
 
 L’astérisque compte.
 
 L’idée n’est évidemment pas de prétendre à un système littéralement sans friction. Certaines résistances sont nécessaires. Certaines protègent quelque chose. Certaines font simplement partie du vrai travail.
 
-Mais comme direction, l’idée reste utile : **continuer à regarder ce qu’on impose aux humains et au travail, et réduire ce qui ne mérite plus ce que ça nous coûte.**
+Mais comme direction, l’idée reste utile : **continuer à regarder ce qu’on impose aux humains et au travail, et réduire ce qui ne mérite plus ce que ça nous coûte.**
 
 ## Push ou pull, la friction reste là
 
-La réflexion est partie d’une idée beaucoup plus simple : push vs pull.
+La réflexion est partie d’une idée beaucoup plus simple : push vs pull.
 
-Push commence généralement avec le travail. Quelque chose doit avancer, alors on cherche où l’envoyer.
+**Push** commence généralement avec le travail. Quelque chose doit avancer, alors on cherche où l’envoyer.
 
-Pull part plutôt de la capacité. Quelque chose vient de se libérer, alors on regarde ce qu’il serait utile de prendre maintenant.
+**Pull** part plutôt de la capacité. Quelque chose vient de se libérer, alors on regarde ce qu’il serait utile de prendre maintenant.
 
 Cette différence reste importante. **Starting isn’t finishing.** Injecter continuellement du nouveau travail peut augmenter le WIP, les queues, l’attente, les context switches et le coût des dépendances déjà présentes.
 
@@ -50,13 +50,10 @@ C’est peut-être la partie la plus trompeuse.
 
 Un système peut demander énormément d’effort autour du travail et quand même produire du travail terminé.
 
-On organise le meeting.
-
-On relance l’expert.
-
-On escalade l’approval.
-
-On se rappelle du workaround.
+- On organise le meeting.
+- On relance l’expert.
+- On escalade l’approval.
+- On se rappelle du workaround.
 
 Et finalement, ça passe.
 
@@ -72,7 +69,7 @@ Mais l’opérateur est devenu une partie implicite du mécanisme.
 
 C’est ce qui peut arriver dans nos systèmes de travail.
 
-Une partie de notre capacité sert alors moins à faire le travail qu’à **faire fonctionner les conditions autour du travail** : relancer, coordonner, attendre puis se recontextualiser, débloquer, contourner.
+Une partie de notre capacité sert alors moins à faire le travail qu’à **faire fonctionner les conditions autour du travail** : relancer, coordonner, attendre puis se recontextualiser, débloquer, contourner.
 
 Et ce coût n’est pas abstrait. Quelqu’un le paie en attention, en interruptions, en charge cognitive, en frustration et en temps.
 
@@ -86,7 +83,7 @@ On trouve la bonne personne, on organise une discussion et on obtient la décisi
 
 Parfait. On vient de débloquer l’item.
 
-Mais si le même type de décision bloque constamment du travail, une autre question devient possible : pourquoi faut-il systématiquement passer par la même personne?
+Mais si le même type de décision bloque constamment du travail, une autre question devient possible : pourquoi faut-il systématiquement passer par la même personne?
 
 Peut-être que son jugement est réellement nécessaire. Ou peut-être qu’il manque un cadre clair, un périmètre de décision explicite ou suffisamment de contexte pour permettre à d’autres de décider normalement.
 
@@ -112,7 +109,7 @@ Quand le flow ralentit, chercher davantage de capacité est un réflexe parfaite
 
 Et parfois, c’est exactement la bonne réponse.
 
-Une machine capable de traiter 100 pièces par minute ne traitera pas durablement 1 000 pièces par minute simplement parce qu’on a mieux compris ce qui la ralentit.
+Une machine capable de traiter 100 pièces par minute ne traitera pas durablement 1 000 pièces par minute simplement parce qu’on a mieux compris ce qui la ralentit.
 
 Mais ajouter de la capacité ne retire pas automatiquement les résistances déjà présentes.
 
@@ -120,11 +117,11 @@ Ajoutons deux développeurs à une équipe où chaque changement important dépe
 
 Cette nouvelle capacité devra elle aussi attendre, coordonner et passer par les mêmes chemins. Une partie d’elle sera donc consommée avant même de contribuer directement au travail.
 
-La question devient alors : **est-ce qu’il nous manque réellement de la capacité, ou est-ce qu’une partie importante de celle qu’on a déjà est dépensée à combattre les conditions du système?**
+La question devient alors : **est-ce qu’il nous manque réellement de la capacité, ou est-ce qu’une partie importante de celle qu’on a déjà est dépensée à combattre les conditions du système?**
 
 ## Toute friction n’est pas mauvaise
 
-`Frictionless*` ne veut pas dire enlever chaque dépendance, chaque review, chaque décision ou chaque coordination.
+Frictionless\* ne veut pas dire enlever chaque dépendance, chaque review, chaque décision ou chaque coordination.
 
 Certaines frictions ont une vraie valeur.
 
@@ -142,7 +139,7 @@ Mais quand l’exception devient notre façon normale de faire avancer du travai
 
 La cible n’est donc pas zéro friction.
 
-La question est plutôt : **est-ce que cette friction mérite encore ce qu’elle nous coûte?**
+La question est plutôt : **est-ce que cette friction mérite encore ce qu’elle nous coûte?**
 
 ## Le système au service de l’humain
 
@@ -158,7 +155,7 @@ Quand une part croissante de notre énergie sert plutôt à nourrir, interpréte
 
 **Responsabilité ne veut pas dire contrôle.**
 
-Mais presque tout le monde peut contribuer à quelque chose : remarquer une friction qu’on avait normalisée, la rendre visible, éviter d’en créer inutilement pour la personne suivante, proposer une amélioration ou réduire ce qui est dans notre portée.
+Mais presque tout le monde peut contribuer à quelque chose : remarquer une friction qu’on avait normalisée, la rendre visible, éviter d’en créer inutilement pour la personne suivante, proposer une amélioration ou réduire ce qui est dans notre portée.
 
 On ne rendra probablement jamais nos systèmes frictionless.
 
@@ -166,14 +163,8 @@ C’est justement pour ça qu’il y a un astérisque.
 
 Ce n’est pas une promesse. C’est une direction qui nous oblige à continuer de regarder ce que les humains compensent, ce que le système protège réellement et ce qu’on a simplement appris à accepter.
 
-Alors la prochaine fois que ça force, peut-être qu’une question mérite d’arriver juste après notre premier réflexe :
+Alors la prochaine fois que ça force, peut-être qu’une question mérite d’arriver juste après notre premier réflexe :
 
 **qu’est-ce qui nous oblige à pousser ou à tirer aussi fort pour que le travail avance?**
 
-## Références
-
-Les références ci-dessous soutiennent l’usage de `push`, `pull`, WIP, capacité et flow dans l’article. La réflexion sur la friction, son coût humain et la responsabilité partagée envers le système est la grille développée ici, pas un concept attribué à ces sources.
-
-- [The Kanban Method Glossary, Kanban University](https://kanban.university/glossary/) : pull signals, pull system, push system, replenishment et pull criteria.
-- [The Official Guide to the Kanban Method, Kanban University](https://kanban.university/kanban-guide/) : WIP limits, capacité disponible et principe de pull.
-- [Open Guide to Kanban, July 2025](https://kanbanguides.org/open-guide-to-kanban/2025.7/) : contrôle du WIP, sélection du travail selon la capacité et politiques explicites de flow.
+Référence technique : [The Official Guide to the Kanban Method, Kanban University](https://kanban.university/kanban-guide/) — pour les notions de push, pull, WIP, capacité et flow.
