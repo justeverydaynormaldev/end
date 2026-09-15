@@ -1,0 +1,16 @@
+# END:SYSTEM-OWNED-PRESENTATION
+title: END
+url: https://justeverydaynormaldev.github.io
+baseurl: /end
+markdown: kramdown
+
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-relative-links
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
