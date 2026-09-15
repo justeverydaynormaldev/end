@@ -7,3 +7,5 @@ This repository contains approved public work from **Everyday Normal Dev (END)**
 - [Frictionless*](frictionless/)
 
 > **Publish the approved work, not the process that produced it.**
+<!-- END:PUBLICATIONS:START -->
+<!-- END:PUBLICATIONS:END -->
