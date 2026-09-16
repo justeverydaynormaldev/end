@@ -1,11 +1,15 @@
 # Everyday Normal Dev
 
-This repository contains approved public work from **Everyday Normal Dev (END)**.
+*just a regular everyday normal dev.*
 
-## Published work
+Le logiciel est rarement aussi propre dans la vraie vie qu’en théorie.
 
+## Publications
 
-> **Publish the approved work, not the process that produced it.**
 <!-- END:PUBLICATIONS:START -->
 - [Frictionless*](https://justeverydaynormaldev.github.io/end/frictionless/)
 <!-- END:PUBLICATIONS:END -->
+
+---
+
+END est piloté par un humain et powered par l’IA.
