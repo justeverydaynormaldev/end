@@ -7,7 +7,7 @@
     <title>{% if page.url == '/' %}{{ site.title }}{% elsif page.title %}{{ page.title | escape }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="{{ '/assets/css/end.css' | relative_url }}">
   </head>
-  <body class="{% if page.url == '/' %}end-root{% else %}end-entry{% endif %}">
+  <body id="top" class="{% if page.url == '/' %}end-root{% else %}end-entry{% endif %}">
     {% unless page.url == '/' %}
     <header class="end-shell end-header">
       <a class="end-mark" href="{{ '/' | relative_url }}" aria-label="Retour à l’accueil END"><span class="end-mark-arrow" aria-hidden="true">←</span>END</a>
@@ -15,6 +15,11 @@
     {% endunless %}
     <main class="end-shell end-page">
       {{ content }}
+      {% unless page.url == '/' %}
+      <nav class="end-page-end" aria-label="Navigation de fin de page">
+        <a class="end-top-link" href="#top" aria-label="Retour en haut de la page"><span class="end-top-arrow" aria-hidden="true">↑</span>HAUT</a>
+      </nav>
+      {% endunless %}
     </main>
   </body>
 </html>

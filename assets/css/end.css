@@ -34,7 +34,8 @@ body {
   padding-block: 2rem 0;
 }
 
-.end-mark {
+.end-mark,
+.end-top-link {
   color: var(--end-charcoal);
   font-size: 0.82rem;
   font-weight: 800;
@@ -42,19 +43,26 @@ body {
   text-decoration: none;
 }
 
-.end-mark-arrow {
+.end-mark-arrow,
+.end-top-arrow {
   display: inline-block;
   margin-inline-end: 0.35em;
   letter-spacing: 0;
 }
 
 .end-mark:hover .end-mark-arrow,
-.end-mark:focus-visible .end-mark-arrow {
+.end-mark:focus-visible .end-mark-arrow,
+.end-top-link:hover .end-top-arrow,
+.end-top-link:focus-visible .end-top-arrow {
   color: var(--end-red);
 }
 
 .end-page {
   padding-block: 4.5rem 7rem;
+}
+
+.end-page-end {
+  margin-top: 5rem;
 }
 
 h1,
@@ -200,6 +208,10 @@ hr {
 
   .end-page {
     padding-block: 3rem 5rem;
+  }
+
+  .end-page-end {
+    margin-top: 4rem;
   }
 
   h2 {
