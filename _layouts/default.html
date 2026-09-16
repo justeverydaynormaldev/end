@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="{{ '/assets/css/end.css' | relative_url }}">
   </head>
   <body class="{% if page.url == '/' %}end-root{% else %}end-entry{% endif %}">
+    {% unless page.url == '/' %}
     <header class="end-shell end-header">
-      <a class="end-mark" href="{{ '/' | relative_url }}" aria-label="END home">END</a>
+      <a class="end-mark" href="{{ '/' | relative_url }}" aria-label="Retour à l’accueil END"><span class="end-mark-arrow" aria-hidden="true">←</span>END</a>
     </header>
+    {% endunless %}
     <main class="end-shell end-page">
       {{ content }}
     </main>

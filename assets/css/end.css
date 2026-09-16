@@ -42,6 +42,17 @@ body {
   text-decoration: none;
 }
 
+.end-mark-arrow {
+  display: inline-block;
+  margin-inline-end: 0.35em;
+  letter-spacing: 0;
+}
+
+.end-mark:hover .end-mark-arrow,
+.end-mark:focus-visible .end-mark-arrow {
+  color: var(--end-red);
+}
+
 .end-page {
   padding-block: 4.5rem 7rem;
 }
