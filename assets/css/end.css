@@ -87,6 +87,10 @@ h1 {
   font-weight: 800;
 }
 
+.end-root .end-page > h1:first-child {
+  margin-bottom: 2rem;
+}
+
 .end-entry .end-page > h1:first-child {
   text-transform: uppercase;
 }
