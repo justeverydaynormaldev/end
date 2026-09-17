@@ -1,6 +1,6 @@
 # Everyday Normal Dev
 
-*just a regular everyday normal dev.*
+*just a regular everyday normal dev thinking and sharing about software development as it actually happens.*
 
 Le logiciel est rarement aussi propre dans la vraie vie qu’en théorie.
 
